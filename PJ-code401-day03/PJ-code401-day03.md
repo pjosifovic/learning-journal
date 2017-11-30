@@ -3,7 +3,7 @@
 
 ## Introduction
 
-* As a assignment for 401d19 class, I'm starting writing learning journal in which I will be putting stuff that I learned today, issues that I've encounter as well as some short snippets of code, useful links or resources from Slack channels or fellow students.
+* As a assignment for 401d19 class, I'm starting writing learning journal in which I will be putting stuff that I learned today, issues that I've encounter as well as some short snippets of code, useful links or resources from Slack channels or fellow students. Also, here are some cheatsheets for Markdown [Markdown cheets](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
 ### Hoisting and Scope
 
@@ -40,6 +40,8 @@ In this example we can see difference between hoisting and initialization. `cons
 
   * Context is always the value of the this keyword which is a reference to the object that “owns” the currently executing code.
 
+* More about understanding Scope and Context [Undestand Scope] (http://ryanmorr.com/understanding-scope-and-context-in-javascript/)
+
 ### Concurrency
 
 * Program can run more than one thing at a timeout.
@@ -73,7 +75,7 @@ In this example we can see difference between hoisting and initialization. `cons
       callback(null, result);
     }, 500);  
   };
-```
+  ```
 
   * **Example: The Callback**
   ```JavaScript
